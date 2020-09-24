@@ -133,7 +133,7 @@ const Slider = props => {
 }
 
 const SliderCSS = css`
-  position: absolute;
+  position: relative;
   height: 100vh;
   width: 100vw;
   margin: 0 auto;

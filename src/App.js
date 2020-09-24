@@ -11,9 +11,16 @@ function App() {
     'https://images.unsplash.com/photo-1534161308652-fdfcf10f62c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2174&q=80'
   ]
 
+  const images1 = [
+    require('./images/wallhaven-0w556p.jpg'),
+    require('./images/wallhaven-lmg3ol.jpg'),
+    require('./images/wallhaven-mdyv6m.jpg'),
+    require('./images/wallhaven-r26ogm.jpg')
+  ]
+
   return (
     <div className="App">
-      <Slider images={images} />
+      <Slider images={images1} />
 
     </div>
 

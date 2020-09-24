@@ -8,9 +8,11 @@ const SliderContent = props => (
       transform: translateY(-${props.translate}px);
       transition: transform ease-out ${props.transition}s;
       width: 100%;
+      object-fit: contain;
       height: ${props.height}px;
       display: flex;
       flex-wrap: wrap;
+      
     `}
   >
     {props.children}
